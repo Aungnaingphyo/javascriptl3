@@ -99,6 +99,28 @@ showwords(languages[gen.next().value]);
 
 
 
+let gettxtlights = document.querySelectorAll('.text-light');
+
+
+    gettxtlights.forEach(function(gettxtlights){
+       let arrtexts = gettxtlights.textContent.split("");
+        // console.log(arrtexts);
+
+        gettxtlights.textContent = "";
+
+        arrtexts.forEach(function(arrtext,idx){
+
+            let newem = document.createElement('em');
+            newem.textContent =arrtext;
+            newem.style.animationDelay = `${idx * .05}s`;
+            
+            gettxtlights.append(newem);
+
+        });
+
+
+    });
+
 
 
 

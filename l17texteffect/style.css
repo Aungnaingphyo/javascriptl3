@@ -49,3 +49,26 @@ span.txtani{
 .yellow{
     color:yellow;
 }
+
+em{
+    color: #fff;
+    font-style: unset;
+
+    animation-name: textlighting;
+    animation-duration: .8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textlighting{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        text-shadow: 0 0 20px #fff;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
