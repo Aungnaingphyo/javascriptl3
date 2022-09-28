@@ -1,0 +1,51 @@
+body{
+    font-family:sans-serif;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5));
+
+    display:grid;
+    place-items:center;
+}
+
+.container{
+    color:#fff;
+}
+
+h1{
+    font-size:40px;
+    color:#bbb;
+}
+
+span.txtani{
+    border-right:2px solid #747474;
+    animation-name: myani;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myani{
+    from{
+        border:none;
+    }
+
+    to{
+        border-right:2px solid #747474;
+    }
+}
+
+.red{
+    color:red;
+}
+
+.skyblue{
+    color:skyblue;
+}
+
+.violet{
+    color:violet;
+}
+
+.yellow{
+    color:yellow;
+}
