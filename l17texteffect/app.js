@@ -175,16 +175,19 @@ let gettxtlights = document.querySelectorAll('.text-light');
 // console.log(getgen.next().value);   //3
 // console.log(getgen.next().value);   //underfined
 
+-----------------------------------------------
+
 // function abc(){
 //     return 1;
 //     return 2;
 //     return 3;
-
+//
 // }
-
+//
 // const ab = abc();
-// console.log(ab);
-// console.log(ab);
-// console.log(ab);
+// console.log(ab);    //result = 1
+// console.log(ab);    //result = 1
+// console.log(ab);    //result = 1
+-------------------------------------------
 // yield
 // next()
