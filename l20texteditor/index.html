@@ -45,6 +45,14 @@
                 title="Capitalize Text">Capitalize Case
         </button>
 
+        <button type="button" class="btn btn-outline-secondary rounded-0 " title="Subscript" data-command="subscript"><i
+                class="fas fa-subscript"></i></button>
+        <button type="button" class="btn btn-outline-secondary rounded-0 " title="Superscript" data-command="superscript"><i
+                class="fas fa-superscript"></i></button>
+
+        <button type="button" class="btn btn-outline-secondary rounded-0 " title="Horizontal Ruler" data-command="insertHorizontalRule"><i
+                class="fas fa-ruler"></i></button>
+
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Order List" data-command="insertOrderedList"><i
                 class="fas fa-list-ol"></i></button>
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Unorder List" data-command="insertUnorderedList" ><i
@@ -54,6 +62,8 @@
                 class="fas fa-check"></i></button>
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Backspace" data-command="delete"><i
                 class="fas fa-backspace"></i></button>
+        <button type="button" class="btn btn-outline-secondary rounded-0 " title="Forward Delete" data-command="forwarddelete"><i
+                class="fas fa-trash-alt "></i></button>
 
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Copy" data-command="copy" ><i class="fas fa-copy"></i>
         </button>
@@ -75,7 +85,23 @@
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Image" data-command="insertImage"><i class="fas fa-image"></i>
         </button>
 
-        <select name="txt-color" id="txtcolor" class="btn btn-outline-secondary rounded-0" data-command="foreColor">
+        <select name="fntname" id="fntname" class="btn btn-outline-secondary rounded-0" data-command="fontName">
+            <option value="arial">arial</option>
+            <option value="century">century</option>
+            <option value="sans-serit">sans-serif</option>
+            <option value="time new romen">time new romen</option>
+        </select>
+
+        <select name="txt-color" id="txtcolor" class="btn btn-outline-secondary rounded-0" data-command="foreColor  ">
+            <option value="black">Black</option>
+            <option value="black">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="White">White</option>
+        </select>
+
+        <select name="bgcolor" id="bgcolor" class="btn btn-outline-secondary rounded-0" data-command="bacColor">
+            <option value="white">White</option>
             <option value="black">Black</option>
             <option value="black">Red</option>
             <option value="Green">Green</option>
@@ -83,6 +109,7 @@
         </select>
 
         <button type="button" class="btn btn-outline-secondary rounded-0 " title="Clear Text" data-command="cleartext">Clear</button>
+        <button type="button" class="btn btn-outline-secondary rounded-0 " title="Remove Formet" data-command="removeFormat">Remove Rormat</button>
 
     </div>
 
@@ -116,5 +143,8 @@
         crossorigin="anonymous"></script>
 <!--Custom js 1-->
 <script src="./app.js" type="text/javascript"></script>
+
 </body>
 </html>
+
+1TE
